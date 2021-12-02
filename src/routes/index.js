@@ -5,10 +5,10 @@ import FallbackSpinner from "components/fallbackSpinner";
 import { selectIsLoggedin } from "components/auth/slice";
 import PrivateRoute from "./privateRoute";
 
-const Home = lazy(() => import("pages/home"));
-const Landing = lazy(() => import("pages/landing"));
+const Home = lazy(() => import("pages/Home"));
+const Landing = lazy(() => import("pages/Landing"));
 const Generate = lazy(() => import("pages/generate"));
-const Profile = lazy(() => import("pages/profile"));
+const Profile = lazy(() => import("pages/Profile"));
 
 const Routes = () => {
   const isLoggedIn = useSelector(selectIsLoggedin);
