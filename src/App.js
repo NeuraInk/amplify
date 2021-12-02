@@ -24,6 +24,7 @@ import UploadTemp from './pages/UploadTemp/UploadTemp';
 import SocialGallery from './pages/SocialGallery/SocialGallery';
 import Setting from './pages/Setting/Setting';
 import Landing from './pages/LandingPage/LandingPage';
+import Upload from './pages/Upload/Upload';
 
 const initialFormState = { name: '', description: '' };
 
@@ -50,7 +51,7 @@ function App() {
             <Navbar className='nav-bar' variant='dark'>
               <Navbar.Brand href='/'>NeuraInk</Navbar.Brand>
               <Nav className='mr-auto'>
-                {/* <Nav.Link href='upload'>Upload</Nav.Link> */}
+                <Nav.Link href='upload'>Upload</Nav.Link>
                 <Nav.Link href='myalbum'>Album</Nav.Link>
                 <Nav.Link href='social-gallery'>Gallery</Nav.Link>
                 <Nav.Link href='setting'>Setting</Nav.Link>
@@ -74,7 +75,7 @@ function App() {
               <Redirect to='/upload' />
             </Route> */}
             <Route path='/upload'>
-              <UploadTemp />
+              <Upload />
             </Route>
             <Route path='/myalbum'>
               <MyAlbum />
