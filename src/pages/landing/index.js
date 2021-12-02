@@ -452,55 +452,6 @@ const Landing = () => {
           </div>
         </div>
       </section>
-
-      {/* Contact us section */}
-      <section className={styles.contactUsSection}>
-        <div className='h-full w-full bg-appDark-700 opacity-80 absolute top-0 left-0 z-10' />
-        <div className='py-28 relative text-white z-20'>
-          <p className='font-bold text-base sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl uppercase'>
-            Contact Us
-          </p>
-          {/* Divider */}
-          <div className='flex justify-center'>
-            <div className='mt-12 w-56 h-0.25 bg-appDark-50 relative'>
-              <div className='w-16 h-2 bg-appDark-50 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            </div>
-          </div>
-
-          <p className='mt-12 text-base'>Anything you'd like to discuss?</p>
-          <p className='mt-20 text-4xl'>expample@mail.com</p>
-        </div>
-      </section>
-      {/* About section */}
-      <section className='bg-appDark-700'>
-        <div className='text-center text-white py-28'>
-          <p className='font-bold text-base sm:text-lg md:text-2xl lg:text-4xl xl:text-5xl uppercase'>
-            About us
-          </p>
-          {/* Divider */}
-          <div className='flex justify-center'>
-            <div className='mt-12 w-56 h-0.25 bg-appDark-50 relative'>
-              <div className='w-16 h-2 bg-appDark-50 absolute top-0 left-1/2 transform -translate-x-1/2' />
-            </div>
-          </div>
-
-          <div className='mt-12 px-4 max-w-2xl mx-auto'>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-              condimentum sed nibh ut bibendum. Nunc lacinia facilisis justo, ac
-              tristique ipsum vestibulum a. Phasellus non odio nec arcu aliquet
-              volutpat elementum quis lacus Donec.
-            </p>
-
-            <p className='mt-2'>
-              Donec ullamcorper neque a vulputate elementum. Nulla vestibulum
-              pellentesque facilisis. Etiam quis arcu tincidunt, volutpat purus
-              vitae,
-            </p>
-          </div>
-        </div>
-      </section>
-
       <footer className='bg-black py-12'>
         <p className='text-sm text-white text-center'>
           &copy; 2021 All rights rserved by neuralnk
